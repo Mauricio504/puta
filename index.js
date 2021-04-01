@@ -515,7 +515,7 @@ client.on('group-participants-update', async (anu) => {
             if (bad.includes(messagesC)) {
                 if (!isGroupAdmins) {
                     try { 
-                        reply("JAGA UCAPAN DONG!! 😠")
+                        reply("JAGA UCAPAN DONG!! ")
                         setTimeout( () => {
  	                           client.groupRemove(from, sender) 
  					   	}, 5000)
